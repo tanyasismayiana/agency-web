@@ -2,13 +2,15 @@
    background-color: #F1EAEA;
 }
 .page1{
- background-color: #FFFFFF;
+ background-color: #eff5f7;
  /* width: 100%; */
  padding: 10%;
  }
  .navbar{
-    text-align: center;
+    /* text-align: center; */
     font-size: 130%;
+    margin-left: -28%;
+    margin-top: -7%;
     
  }
  .navbar a{
@@ -16,55 +18,27 @@
  }
  .name{
      float: left;
+     margin-left: 25%;
  }
  .but{
      float: right;
       padding: 15px 30px;
-      margin-top: -2%;
+      margin-top: -1%;
       border-radius: 10px;
       background-color: #5184F9;
+      margin-right: 12%;
      
   
  }
-
-/* 
-.logo{
-    display: flex;
-   
-    
-}
-.logoimg{
-    margin-top: 30%;
-}
-.wordslogo{
-    margin-top: 20%;
-
+ .logoimg{
  
+    margin-right: 15%;
+   
 }
 
-#abu{
-    color: #9ACAC4;
-    margin-top: 20%;
-
-}
-.navbar{
-    display: flex;
-    list-style: none;
-    margin-left: 30%;
-    margin-top: -5%;
-  
-}
-li{
-    padding: 3%;
-} */
 .btn{
     margin-left: 75%;
     margin-top:-4%;
-   
-}
-.but{
-    
-    /* width: 10%; */
    
 }
 
@@ -75,7 +49,7 @@ li{
 }
 
 .fa-twitter{
-    /* margin-left: 10%; */
+   
    size: -80%;
 }
  .words{
@@ -90,8 +64,9 @@ li{
  }
 .but2{
    margin-left: 3%; 
-  
+
 }
+
    
 .photo{
     margin-left: 65%;
@@ -102,28 +77,27 @@ li{
     display: flex;
     padding-left: 26%;
     font-size: 120%;
-    margin-left: -10%;
+    margin-left: -8%;
     
 }
 .box1{
-    margin-left:-15% ;
+    margin-left:-10% ;
     background-color: #FFFFFF;
-    padding: 2%;
-    background-color: #F5F9FA;
+    padding: 5%;
+    /* background-color: #F5F9FA; */
     
    
 }
 .box2{
-    /* margin-left:23% ; */
-    background-color: #FFFFFF;
+   
+    /* background-color: #FFFFFF; */
     padding: 2%;
     background-color: #48A091;
 }
 .box3{
-    /* margin-left: 30%; */
     background-color: #FFFFFF; 
     padding: 2%;
-    background-color: #EAF6FE;
+    /* background-color: #EAF6FE; */
 }
 .footer{
     display: flex;
@@ -156,7 +130,7 @@ font-size: 150%;
 
 .service h4{
  color: #B5D3CF;
- /* text-align: center; */
+
  font-size: 150%;
  margin-left: 40%;
 }
@@ -167,7 +141,6 @@ font-size: 150%;
   margin-top: -8%;
  }
  .service h1{
-     /* text-align: center; */
      margin-left: 40%;
   
  }
@@ -215,43 +188,19 @@ font-size: 150%;
     margin-top: 10%;
     margin-left: -16%;
 }
-/* .words1{
-    margin-left: 10%;
-    margin-top: 10%;
-}
-.words1 h1{
-    margin-top: -45%;
-    margin-left: 50%;
-}
-.words1 p{
-    margin-left: 50%;
-    margin-top: -5%;
-}
 
-.logo3{
-    margin-left: 57%;
-    margin-top: -4%;
-}
-.sentences{
-    margin-left:-1%;
-    margin-top: 31%;
-}
-.photo1{
-    margin-left: 10%;
-    margin-top: 8%;
-} */
 .page2{
-    background-color: #FFFFFF;
+    background-color: #eff5f7;
     padding: 5%;
     margin-top: 5%;
 }
 .page3{
-    background-color: #FFFFFF;
+    background-color: #eff5f7;
     padding: 5%;
     margin-top: 5%;
 }
 .signup{
-    /* margin-left: 40%; */
+    
     text-align: center;
     font-size: 180%;
     top: -30%;
@@ -260,51 +209,47 @@ font-size: 150%;
     margin-left: 40%;
     width: 500px;
     height: 50px;
+    background-color: #48A091;
+    border-radius: 10px;
 }
-/* .email .b{
-    margin-left: 70%;
-    margin-top: -55%;
-} */
-/* .project{
-    margin-top: 10%;
+.email .b{
+    background-color: #5184F9;
+    border-radius: 10px;
+    margin-left: -10%;
+    font-size: 120%;
 }
-.project p{
-    margin-top:5% ;
-    margin-left: 1%;
+.email{
+    margin-left: -25%;
 }
-.project h1{
-    margin-top: 8%;
-    margin-left: 15%;
 
-} */
 .page4{
-   background-color: #FFFFFF;
+    background-color: #eff5f7;
    margin-top: 5%;
    padding: 10%;
   
 
 }
 .word4{
-    margin-left: 10%;
-    padding-top: 1%;
+    margin-left: 5%;
+    /* padding-top: 1%; */
     font-size: 140%;
+    margin-top: -5%;
 }
 .logo5{
     margin-top: -18%;
     margin-left: 20%;
 }
 .details{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 10%;
     font-size: 130%;
-    /* padding: 3%; */
+   
 }
 .photo2{
 margin-left: 50%;
 margin-top: -35%;
 }
 .numbers{
-    /* padding: 20%; */
     margin-left: -35%;
 }
 .num{
@@ -333,10 +278,12 @@ margin-top: -35%;
     margin-top: 5%;
     margin-left: 3%;
 }
-.end{
-    margin-left: 20%;
-    background-color: #48A091;
-    font-size: 25px;
-    margin-right: 25%;
+.ending{
+    float: left;
+    padding: 15px 30px;
+    margin-top: -6%;
+    border-radius: 10px;
+    background-color: #5184F9;
+    margin-left: 14%;
     
 }
